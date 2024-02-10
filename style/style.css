@@ -1,0 +1,143 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.div{
+    width: 100%;
+}
+.row{
+    width: 100%;
+  
+}
+.txtlangga{
+margin-top: 20px;
+    animation: hello  3000ms 1 ease-in-out;
+}
+.wave{
+    animation: wave  4900ms 1 ease-in-out;
+}
+.srcl{
+    animation: fadee  7500ms 1 ease-in-out;
+} 
+
+@keyframes fadee{
+    0%{
+      
+        opacity: 0;
+    }
+    40%{
+      
+        opacity: 0;
+      
+    }
+    60%{
+       
+        opacity: 0;
+       
+    }
+    100%{  
+      
+        opacity: 1;
+    }
+}
+
+@keyframes wave{
+    0%{
+      
+        opacity: 0;
+    }
+    40%{
+      
+        opacity: 0;
+      
+    }
+    60%{
+       
+        opacity: 0;
+       
+    }
+    100%{  
+      
+        opacity: 1;
+    }
+}
+@keyframes hello {
+    0%{
+        transform: translateX(-800px);
+        opacity: 0;
+        opacity: 0;
+    }
+    40%{
+        transform: translateX(-600px);
+        opacity: 0;
+      
+    }
+    60%{
+        transform: translateX(-300px);
+        opacity: 0;
+       
+    }
+    100%{  transform: translateX(0px);
+      
+        opacity: 1;
+    }
+}
+.con{
+    display: flex;
+    justify-content: center;
+}
+.img-ask{
+   animation:beatt 1s  infinite alternate-reverse ease-in-out;
+}
+@keyframes beatt {
+    from{
+        scale: 1;
+    }
+    to{
+        scale: 1.5;
+    }
+}
+.pink{
+    background-color: rgb(243, 226, 231);
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20px;
+    align-items: center;
+}
+.btns button{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+}
+.btns button:hover{
+    background-color: green;
+    outline: none;
+    color:white
+}
+.cont{
+display: none;
+}
+#reward{
+    width: 150px;
+    display: none;
+    animation: color 0.5s infinite alternate-reverse ease-in-out;
+    cursor: pointer;
+    outline: none;
+    border: white 6px solid;
+    color:white
+}
+@keyframes color {
+    from{
+        background-color: rgb(245, 69, 221);
+    }
+    to{
+        background-color: rgb(19, 166, 224);
+    }
+}
+
+.removeBtn{
+    display: none;
+}
